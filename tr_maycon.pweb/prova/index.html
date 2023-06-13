@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <nav>
+      <div class="logo">
+      <img src="img/logo.png" width="50"><a href="#">Emtremontes</a>
+      </div>
+      <ul class="menu-desktop">
+          <li> <a href="index.html">inicio </a> </li>
+          <li> <a href="#">viagens</a> </li>
+          <li> <a href="contato.html">Contato</a> </li>
+      </ul>
+      <div class="menu-icon">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+        </nav>
+      <section class="banner">
+          <div class="texto">
+              <h2 class="título">Viajar é se apaixonar novamente pela vida</h2>
+      <div class="botoes">
+          <button class="overlay"><a href="loguin.html">loguin</button>
+      
+      </div>
+          </div>
+      
+      </section>
+          <script>
+              var menuIcon = dicument.querySelector('.menu-icon');
+              var menuMobile = document.querySelector('.menu-mobile'); 
+              var iconClose = document.querySelector('.menu-mobile .icon-close');
+      
+              menuIcon.addEventlistener('click',function(){
+                  menuMobile.classList.add('ativo');
+              });
+      
+      
+          </script>
+      </center>
+    
+</body>
+</html>
